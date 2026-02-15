@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sanpear | Minecraft YouTuber</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo-wrap">
+  <img src="logo.png" alt="Sanpear Logo" class="logo-icon">
+  <span class="logo-text">SAN<span>PEAR</span></span>
+</div>
+
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#youtube">YouTube</a>
+      <a href=https://discord.gg/ECvgU6ZtX5>Community</a>
+    </div>
+    
+
+  </nav>
+
+  <!-- Hero -->
+   <div class="sub-badge reveal">
+  <span class="status-dot"></span>
+  <span class="sub-text">
+    <span id="subNumber">1.K</span> SUBSCRIBERS
+  </span>
+</div>
+
+
+  <section class="hero">
+    <h1>
+  THE ULTIMATE<br>
+  <span>MINECRAFT CONTENT</span>
+</h1>
+
+
+    <p>Minecraft  • PvP • Challenges</p>
+
+    <div class="buttons">
+      <a href="https://youtube.com/@sanpears" target="_blank" class="btn primary">
+        SUBSCRIBE ON YOUTUBE
+
+      </a>
+      <a
+  href=https://discord.gg/ECvgU6ZtX5
+  target="_blank"
+  class="btn secondary"
+>
+  <i class="fa-brands fa-discord"></i>
+  JOIN DISCORD
+</a>
+
+
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2>About <span>Sanpear</span></h2>
+    <p>
+      Hi, I’m <b>Sanpear</b>, a Minecraft YouTuber creating high-quality
+       PvP, and fun Minecraft content.  
+      Subscribe and join the journey 🚀
+    </p>
+  </section>
+
+  <!-- YouTube -->
+  <section class="youtube" id="youtube">
+    <h2>My <span>YouTube</span></h2>
+    <iframe 
+      src="https://www.youtube.com/embed?listType=user_uploads&list=sanpears"
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- Community -->
+  <section class="community" id="community">
+    <h2>Join the <span>Community</span></h2>
+    <p>Be part of the Sanpear Minecraft community 💙</p>
+  </section>
+  <section class="about reveal" id="about">
+<section class="youtube reveal" id="youtube">
+
+
+  <footer>
+    © 2026 Sanpear • All Rights Reserved
+  </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  particlesJS("particles-js", {
+    particles: {
+      number: {
+        value: 35,
+        density: { enable: true, value_area: 900 }
+      },
+      color: { value: "#00f6ff" },
+      shape: { type: "circle" },
+      opacity: {
+        value: 0.35,
+        random: true
+      },
+      size: {
+        value: 2.5,
+        random: true
+      },
+      line_linked: {
+        enable: true,
+        distance: 160,
+        color: "#00f6ff",
+        opacity: 0.15,
+        width: 1
+      },
+      move: {
+        enable: true,
+        speed: 0.8,
+        direction: "none",
+        out_mode: "out"
+      }
+    },
+    interactivity: {
+      events: {
+        onhover: { enable: true, mode: "repulse" },
+        onclick: { enable: true, mode: "push" }
+      },
+      modes: {
+        repulse: { distance: 120 }
+      }
+    },
+    retina_detect: true
+  });
+});
+</script>
+
+
+
+</body>
+</html>
